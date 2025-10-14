@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">android-material-dio</string>
+    <string name="send_button">Enviar</string>
+    <string name="label_buttons">Buttons</string>
+    <string name="label_text_field">Text Field</string>
+    <string name="label_bottom_sheet">Button Sheets</string>
+    <string name="label_top_app_bar">Top App Bar</string>
+    <string name="label_bottom_app_bar">Button App Bar</string>
+    <string name="label_snack_bars">Snack Bar</string>
+    <string name="label_bottom_navigation">Button Navigation</string>
+</resources>
