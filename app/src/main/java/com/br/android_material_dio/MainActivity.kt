@@ -3,9 +3,6 @@ package com.br.android_material_dio
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.br.android_material_dio.databinding.ActivityMainBinding
 
 
@@ -31,6 +28,12 @@ class MainActivity : AppCompatActivity() {
     private fun insertListeners() {
         binding.cvButtons.setOnClickListener {
             startActivity(ButtonsActivity.createIntent(this))
+        }
+        binding.cvTextFields.setOnClickListener {
+            startActivity(TextFieldActivity.createIntent(this))
+        }
+        binding.cvTopAppBar.setOnClickListener {
+            startActivity(TopAppBarActivity.createIntent(this))
         }
     }
 }

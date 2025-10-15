@@ -8,4 +8,6 @@
     <string name="label_bottom_app_bar">Button App Bar</string>
     <string name="label_snack_bars">Snack Bar</string>
     <string name="label_bottom_navigation">Button Navigation</string>
+    <string name="email_example">matheustest@gmail.com</string>
+    <string name="password">*******</string>
 </resources>
