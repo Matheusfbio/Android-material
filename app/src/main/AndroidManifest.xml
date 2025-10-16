@@ -23,6 +23,7 @@
         <activity android:name="com.br.android_material_dio.ButtonsActivity" />
         <activity android:name="com.br.android_material_dio.TextFieldActivity" />
         <activity android:name="com.br.android_material_dio.TopAppBarActivity" />
+        <activity android:name="com.br.android_material_dio.BottomNavigationActivity" />
     </application>
 
 </manifest>

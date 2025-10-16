@@ -35,5 +35,8 @@ class MainActivity : AppCompatActivity() {
         binding.cvTopAppBar.setOnClickListener {
             startActivity(TopAppBarActivity.createIntent(this))
         }
+        binding.cvBottomNavigation.setOnClickListener {
+            startActivity(BottomNavigationActivity.createIntent(this))
+        }
     }
 }
