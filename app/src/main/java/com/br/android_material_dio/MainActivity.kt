@@ -29,6 +29,9 @@ class MainActivity : AppCompatActivity() {
         binding.cvButtons.setOnClickListener {
             startActivity(ButtonsActivity.createIntent(this))
         }
+        binding.cvBottomSheets.setOnClickListener {
+            ModalBottonSheet.start(supportFragmentManager)
+        }
         binding.cvTextFields.setOnClickListener {
             startActivity(TextFieldActivity.createIntent(this))
         }
