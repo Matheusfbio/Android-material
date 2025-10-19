@@ -1,5 +1,8 @@
 # Android Material Components (XML)
 
+https://github.com/user-attachments/assets/98cb5e8d-229d-4002-8c24-511bc3d1a021
+
+
 Este projeto é um guia prático e demonstrativo dos principais componentes do Material Design para Android, utilizando a abordagem tradicional de construção de UI com XML.
 
 O objetivo é servir como um material de consulta rápida e um exemplo de implementação para desenvolvedores que trabalham com o sistema de Views do Android.
