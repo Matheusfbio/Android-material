@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:paddingLeft="12sp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="John Doe"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jane Smith"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peter Jones"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alice Williams"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Robert Brown"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emily Davis"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Michael Miller"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sarah Wilson"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="David Moore"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jessica Taylor"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+
+            <TextView
+                style="@style/TextAppearance.MaterialComponents.Headline4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="James Anderson" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linda Thomas"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="David Moore"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jessica Taylor"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="James Anderson"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linda Thomas"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/><TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="James Anderson"
+            style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linda Thomas"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="David Moore"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jessica Taylor"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="James Anderson"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linda Thomas"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/><TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="James Anderson"
+            style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linda Thomas"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="David Moore"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jessica Taylor"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="James Anderson"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linda Thomas"
+                style="@style/TextAppearance.MaterialComponents.Headline4"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/bottomAppBar"
+        android:src="@drawable/ic_add"
+        app:shapeAppearanceOverlay="@style/FabShapeAppearance"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="match_parent"
+        app:hideOnScroll="true"
+        android:layout_height="55sp"
+        android:layout_gravity="bottom|end"
+        app:menu="@menu/bottom_app_bar"
+        app:navigationIconTint="@color/black"
+        app:navigationIcon="@drawable/ic_menu" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
